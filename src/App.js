@@ -4,6 +4,7 @@ import Home from "./page/home";
 import Portfolio from "./page/portfolio";
 import About from "./page/about";
 import Contact from "./page/contact";
+import Vlog from "./page/vlog";
 import portfoliologo from "./portfoliologo.png";
 import profilepic from "./photos/profilepic.jpg";
 // import kwin from './photos/kwin.gif'
@@ -119,7 +120,26 @@ const App = () => {
               },
             }}
           >
-            Contact
+             Contact  
+          </Button>
+          <Button
+            href="/vlog"
+            sx={{
+              color: "white",
+              fontSize: "17px",
+              backgroundColor: "transparent",
+              // border: "1px solid white",
+              borderRadius: "15px",
+              padding: "5px 15px",
+              marginTop: "10px",
+              marginRight: "20px",
+              "&:hover": {
+                color: "black",
+                backgroundColor: "white",
+              },
+            }}
+          >         
+            Vlog
           </Button>
         </nav>
         <Container
