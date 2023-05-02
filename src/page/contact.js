@@ -15,6 +15,18 @@ const mailtoUrl = `mailto:qasantiago8@gmail.com?subject=${name} - ${email}&body=
 window.location.href = mailtoUrl;}
 
 return (
+  <div style={{ 
+    backgroundImage: 'url(https://i.ibb.co/xsRm9Ht/bgmain.png)', 
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    height: '900px',
+    width: '1920px',
+    marginTop: '-20px',
+    
+
+  }}>
+  
 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '20px', }}>
 <Box sx={{
 marginTop: '100px',
@@ -26,7 +38,7 @@ borderRadius: '5px',
 boxShadow: '0px 0px 10px 1px rgba(0,0,0,0.25)',
 width: '650px'
 }}>
-<h1 sx={{ fontFamily: 'Arial', fontSize: '2rem', fontWeight: 'bold', marginBottom: '20px' }}>Get In Touch!</h1>
+<h1 sx={{ fontFamily: 'Arial', fontSize: '2rem', fontWeight: 'bold', marginBottom: '20px', color: ' black' }}>Get In Touch!</h1>
 <form onSubmit={handleSubmit}>
 <input type="text" name="name" placeholder="Name" style={{ marginBottom: '20px', padding: '5px', border: 'none', borderBottom: '1px solid black', width: '300px', height: '25px' }} />
 <input type="text" name="email" placeholder="Email" style={{ marginBottom: '20px',marginLeft: '20px', padding: '5px', border: 'none', borderBottom: '1px solid black', width: '300px', height: '25px' }} />
@@ -38,11 +50,11 @@ width: '650px'
 </Box>
 
   <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '20px', marginRight:'50px', marginTop:'20px' }}>
-    <a href="https://m.facebook.com/angelique.santiago.908" className="icon-link" style={{ color: 'black', marginRight:'50px' }}><FaFacebook size={35} style={{  marginRight:'10px' }} /> Angelique Santiago</a>
-    <a href="https://instagram.com/angelique_santiago28?igshid=YmMyMTA2M2Y=://www.instagram.com/" className="icon-link" style={{ color: 'black' }}><FaInstagram size={35} style={{  marginRight:'10px' }}  />angelique_santiago28</a>
-    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" className="icon-link" style={{ color: 'black' }}><FaLinkedin size={35} style={{  marginRight:'10px' }}  /> Angelique Santiago</a>
-    <a href="mailto:qasantiago8@gmail.com" className="icon-link" style={{ color: 'black' }}><FaEnvelope size={35} style={{  marginRight:'10px' }}   />santiagoangelique2@gmail.com</a>
-    <a href= "https://www.google.com/maps/place/Remberland+East+Subdivision/@14.5646504,121.2089755,17z/data=!4m6!3m5!1s0x3397c177f6d60117:0x9d79f369c1fb60a9!8m2!3d14.5649055!4d121.2119969!16s%2Fg%2F11pz1bdr79!5m1!1e1" style={{  marginTop:'20px' }}> LOCATION</a>
+    <a href="https://m.facebook.com/angelique.santiago.908" className="icon-link" style={{ color: 'blue', marginRight:'50px' }}><FaFacebook size={35} style={{  marginRight:'10px' }} /> Angelique Santiago</a>
+    <a href="https://instagram.com/angelique_santiago28?igshid=YmMyMTA2M2Y=://www.instagram.com/" className="icon-link" style={{ color: 'blue' }}><FaInstagram size={35} style={{  marginRight:'10px' }}  />angelique_santiago28</a>
+    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" className="icon-link" style={{ color: 'blue' }}><FaLinkedin size={35} style={{  marginRight:'10px' }}  /> Angelique Santiago</a>
+    <a href="mailto:qasantiago8@gmail.com" className="icon-link" style={{ color: 'blue' }}><FaEnvelope size={35} style={{  marginRight:'10px' }}   />santiagoangelique2@gmail.com</a>
+    <a href= "https://www.google.com/maps/place/Remberland+East+Subdivision/@14.5646504,121.2089755,17z/data=!4m6!3m5!1s0x3397c177f6d60117:0x9d79f369c1fb60a9!8m2!3d14.5649055!4d121.2119969!16s%2Fg%2F11pz1bdr79!5m1!1e1" style={{  marginTop:'20px', color: 'white' }}> LOCATION</a>
     <img
             src={location}
             alt="location"
@@ -51,7 +63,7 @@ width: '650px'
             style={{ paddingTop: "9px" }} // Add this line to set the top padding
 
           />
-
+</div>
   </div>
 </div>
 );

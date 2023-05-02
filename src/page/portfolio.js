@@ -10,9 +10,23 @@ import Typography from '@mui/material/Typography';
 
 const Portfolio = () => {
   return (
-    <div>
-    <div style={{ display: 'flex', marginLeft:'210px',marginTop: '100px'}}>
-      <Card sx={{ maxWidth: 345, marginRight: 2, boxShadow: '0 10px 20px -1px rgba(0, 0, 0, 0.2)', transition: 'transform 0.2s ease-in-out' }}>
+<div style={{ 
+  backgroundImage: 'url(https://i.ibb.co/xsRm9Ht/bgmain.png)', 
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  height: '900px',
+  width: '1920px',
+  marginTop: '-50px'
+}}>
+<div style={{ display: 'flex', marginLeft:'210px', marginTop: '50px', paddingTop: '45px' }}>
+      <Card sx={{ maxWidth: 345,
+marginRight: 2,
+transition: 'transform 0.8s ease-in-out',
+border: '1px solid lightgray',
+backgroundColor: 'transparent',
+color: 'white',
+boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(0, 0, 0, 0.1)'   }}>
         <CardMedia
           sx={{ height: 140 }}
           image="https://i.ibb.co/3ykZz4S/Slide1.png"
@@ -22,7 +36,7 @@ const Portfolio = () => {
           <Typography gutterBottom variant="h5" component="div">
             Rentie 
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" sx={{ color: 'white' }}>
             Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
           </Typography>
         </CardContent>
@@ -31,17 +45,24 @@ const Portfolio = () => {
         </CardActions>
       </Card>
 
-      <Card sx={{ maxWidth: 345, marginRight: 2,marginLeft:'150px', boxShadow: '0 10px 20px -1px rgba(0, 0, 0, 0.2)', transition: 'transform 0.2s ease-in-out' }}>
+      <Card sx={{ maxWidth: 345,
+marginRight: 20,
+marginLeft: 20,
+transition: 'transform 0.8s ease-in-out',
+border: '1px solid lightgray',
+backgroundColor: 'transparent',
+color: 'white',
+boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(0, 0, 0, 0.1)'   }}>
         <CardMedia
           sx={{ height: 140 }}
           image="https://i.ibb.co/Ydx3hqm/SYSTEM-FOR-ANGEL-STORE.png"
           title="green iguana"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h5" component="div">
             Angel Store
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" sx={{ color: 'white' }}>
             Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
           </Typography>
         </CardContent>
@@ -50,7 +71,13 @@ const Portfolio = () => {
         </CardActions>
       </Card>
 
-      <Card sx={{ maxWidth: 345,marginLeft:'150px', boxShadow: '0 10px 20px -1px rgba(0, 0, 0, 0.2)', transition: 'transform 0.2s ease-in-out' }}>
+      <Card sx={{ maxWidth: 345,
+marginRight: 2,
+transition: 'transform 0.8s ease-in-out',
+border: '1px solid lightgray',
+backgroundColor: 'transparent',
+color: 'white',
+boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(0, 0, 0, 0.1)'   }}>
         <CardMedia
           sx={{ height: 140 }}
           image="https://i.ibb.co/RjZxLjZ/cai-science.png"
@@ -60,7 +87,7 @@ const Portfolio = () => {
           <Typography gutterBottom variant="h5" component="div">
             CAI Science
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" sx={{ color: 'white' }}>
             Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
           </Typography>
         </CardContent>
@@ -74,7 +101,13 @@ const Portfolio = () => {
 {/* column 2 cards */}
 
     <div style={{ display: 'flex', marginLeft:'210px',marginTop: '100px'}}>
-      <Card sx={{ maxWidth: 345, marginRight: 2, boxShadow: '0 10px 20px -1px rgba(0, 0, 0, 0.2)', transition: 'transform 0.2s ease-in-out' }}>
+    <Card sx={{ maxWidth: 345,
+marginRight: 2,
+transition: 'transform 0.8s ease-in-out',
+border: '1px solid lightgray',
+backgroundColor: 'transparent',
+color: 'white',
+boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(0, 0, 0, 0.1)'   }}>
         <CardMedia
           sx={{ height: 140 }}
           image="https://i.ibb.co/6WfPS3F/1.png"
@@ -84,7 +117,7 @@ const Portfolio = () => {
           <Typography gutterBottom variant="h5" component="div">
             CAI English
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" sx={{ color: 'white' }}>
             Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
           </Typography>
         </CardContent>
@@ -93,7 +126,15 @@ const Portfolio = () => {
         </CardActions>
       </Card>
 
-      <Card sx={{ maxWidth: 345, marginRight: 2,marginLeft:'150px', boxShadow: '0 10px 20px -1px rgba(0, 0, 0, 0.2)', transition: 'transform 0.2s ease-in-out' }}>
+      <Card sx={{ maxWidth: 345,
+marginRight: 20,
+marginLeft: 20,
+transition: 'transform 0.8s ease-in-out',
+border: '1px solid lightgray',
+backgroundColor: 'transparent',
+color: 'white',
+boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(0, 0, 0, 0.1)'   }}>
+
         <CardMedia
           sx={{ height: 140 }}
           image="https://i.ibb.co/Ydx3hqm/SYSTEM-FOR-ANGEL-STORE.png"
@@ -103,7 +144,7 @@ const Portfolio = () => {
           <Typography gutterBottom variant="h5" component="div">
             Project 1
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" sx={{ color: 'white' }}>
             Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
           </Typography>
         </CardContent>
@@ -112,7 +153,13 @@ const Portfolio = () => {
         </CardActions>
       </Card>
 
-      <Card sx={{ maxWidth: 345,marginLeft:'150px', boxShadow: '0 10px 20px -1px rgba(0, 0, 0, 0.2)', transition: 'transform 0.2s ease-in-out' }}>
+      <Card sx={{ maxWidth: 345,
+marginRight: 2,
+transition: 'transform 0.8s ease-in-out',
+border: '1px solid lightgray',
+backgroundColor: 'transparent',
+color: 'white',
+boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(0, 0, 0, 0.1)'   }}>
         <CardMedia
           sx={{ height: 140 }}
           image="https://i.ibb.co/RjZxLjZ/cai-science.png"
@@ -122,7 +169,7 @@ const Portfolio = () => {
           <Typography gutterBottom variant="h5" component="div">
             Project2
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" sx={{ color: 'white' }}>
             Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
           </Typography>
         </CardContent>

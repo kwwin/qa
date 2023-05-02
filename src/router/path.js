@@ -6,5 +6,6 @@ export const PATH_PAGE = {
     portfolio: "/portfolio",
     about: "/about",
     contact: "/contact",
+    contact: "/vlog",
     
   };
