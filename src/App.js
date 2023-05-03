@@ -11,10 +11,11 @@ import profilepic from "./photos/profilepic.jpg";
 import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useNavigate } from "react-router-dom";
 import { Box } from "@mui/material";
 
 const App = () => {
+  const navigate = useNavigate()
   return (
     <div>
       {/* #e0ffff */}
@@ -22,7 +23,7 @@ const App = () => {
         sx={{
           bgcolor: "black", // Replace with your desired color
           height: "60px", // Replace with your desired height
-          width: "1850px", // Replace with your desired width
+          width: "1860px", // Replace with your desired width
           display: "flex",
           // gap: "20px",
         
@@ -66,7 +67,8 @@ const App = () => {
             Home
           </Button>
           <Button
-            href="/portfolio"
+            // href="/portfolio"
+            onClick={()=> navigate('portfolio')}
             sx={{
               color: "white",
               fontSize: "17px",
@@ -85,7 +87,8 @@ const App = () => {
             Portfolio
           </Button>
           <Button
-            href="/about"
+            // href="/about"
+            onClick={()=> navigate('about')}
             sx={{
               color: "white",
               fontSize: "17px",
@@ -104,7 +107,8 @@ const App = () => {
             About
           </Button>
           <Button
-            href="/contact"
+            // href="/contact"
+            onClick={()=> navigate('contact')}
             sx={{
               color: "white",
               fontSize: "17px",
@@ -123,7 +127,8 @@ const App = () => {
              Contact  
           </Button>
           <Button
-            href="/vlog"
+            // href="/vlog"
+            onClick={()=> navigate('vlog')}
             sx={{
               color: "white",
               fontSize: "17px",
