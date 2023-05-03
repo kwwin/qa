@@ -37,8 +37,7 @@ boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(0, 0, 0, 0.1)'  
             Rentie 
           </Typography>
           <Typography variant="body2" sx={{ color: 'white' }}>
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
-          </Typography>
+          Rentie is a "tiangge" located in Baras Rizal Supermarket.........          </Typography>
         </CardContent>
         <CardActions>
           <Button href="/rentie" size="small">View</Button>
@@ -63,8 +62,8 @@ boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(0, 0, 0, 0.1)'  
             Angel Store
           </Typography>
           <Typography variant="body2" sx={{ color: 'white' }}>
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
-          </Typography>
+          Angel Store POint of Sale, organize and
+monitors stocks..........          </Typography>
         </CardContent>
         <CardActions>
           <Button href="/angelstore" size="small">View</Button>
@@ -88,8 +87,7 @@ boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(0, 0, 0, 0.1)'  
             CAI Science
           </Typography>
           <Typography variant="body2" sx={{ color: 'white' }}>
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
-          </Typography>
+          Computer-Aided Learning for Science includes various features..........          </Typography>
         </CardContent>
         <CardActions>
           <Button href="/caiscience" size="small">View</Button>
@@ -118,8 +116,7 @@ boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(0, 0, 0, 0.1)'  
             CAI English
           </Typography>
           <Typography variant="body2" sx={{ color: 'white' }}>
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
-          </Typography>
+          Computer - Aided Instruction for English enable students to..........          </Typography>
         </CardContent>
         <CardActions>
           <Button href="/caienglish" size="small">View</Button>
@@ -137,16 +134,15 @@ boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2), 0px 0px 10px rgba(0, 0, 0, 0.1)'  
 
         <CardMedia
           sx={{ height: 140 }}
-          image="https://i.ibb.co/Ydx3hqm/SYSTEM-FOR-ANGEL-STORE.png"
+          image="https://i.ibb.co/NtKXM70/poetbythee.png"
           title="green iguana"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Project 1
+            E-Commerce
           </Typography>
           <Typography variant="body2" sx={{ color: 'white' }}>
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica
-          </Typography>
+          E-commerce website for books allow writers to express..........          </Typography>
         </CardContent>
         <CardActions>
           <Button href="/project1" size="small">View</Button>
